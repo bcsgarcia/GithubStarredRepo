@@ -1,0 +1,6 @@
+framework module Pods_GithubMostPopular {
+  umbrella header "Pods-GithubMostPopular-umbrella.h"
+
+  export *
+  module * { export * }
+}
