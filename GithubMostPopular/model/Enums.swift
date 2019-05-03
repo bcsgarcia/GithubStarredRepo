@@ -19,7 +19,7 @@ enum RequestError {
 }
 
 enum UrlRouter: URLRequestConvertible {
-    static let baseURLString = "https://api.github.com/search/repositories?"
+    static let baseURLString = "https://api.github.com/search/"
     
     case getStarred(Int)
     
@@ -34,19 +34,25 @@ enum UrlRouter: URLRequestConvertible {
         let url: URL = {
             // build up and return the URL for each endpoint
             let relativePath: String?
+            
             switch self {
             case .getStarred(let number):
-                relativePath = "q=language:swift&sort=stars&page=\(number)&per_page=10"
+                relativePath = "repositories?q=language:swift&sort=stars&page=\(number)&per_page=10"
             }
             
             var url = URL(string: UrlRouter.baseURLString)!
             if let relativePath = relativePath {
-                url = URL(string:url.appendingPathComponent(relativePath).absoluteString.removingPercentEncoding!)!
+                url = URL(string: UrlRouter.baseURLString + relativePath)!
+                print(url)
             }
+            
+            
             return url
         }()
         
         var urlRequest = URLRequest(url: url)
+        
+        
         urlRequest.httpMethod = method.rawValue
         
         let encoding: ParameterEncoding = {
