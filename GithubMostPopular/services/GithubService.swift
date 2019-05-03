@@ -28,6 +28,7 @@ class GithubService : GithubServiceProtocol {
                 }
                 
                 do {
+                    print(response)
                     let mostPopular = try JSONDecoder().decode(GitResponse.self, from: data)
                     DispatchQueue.main.async {
                         completion(mostPopular, nil)
