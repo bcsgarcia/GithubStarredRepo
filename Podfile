@@ -6,17 +6,20 @@ target 'GithubMostPopular' do
   use_frameworks!
 
   # Pods for GithubMostPopular
-  pod 'Nimble', '~> 8.0'
-  pod 'Alamofire', '~> 5.0.0-beta.5'
+  #pod 'Nimble', '~> 8.0'
+  pod 'Alamofire', '~> 4.8.2'
+  pod 'AlamofireImage', '~> 3.5.2'
 
   target 'GithubMostPopularTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Nimble', '~> 8.0'
   end
 
   target 'GithubMostPopularUITests' do
     inherit! :search_paths
     # Pods for testing
+    
   end
 
 end
