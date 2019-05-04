@@ -37,7 +37,7 @@ enum UrlRouter: URLRequestConvertible {
             
             switch self {
             case .getStarred(let number):
-                relativePath = "repositories?q=language:swift&sort=stars&page=\(number)&per_page=10"
+                relativePath = "repositories?q=language:swift&sort=stars&page=\(number)&per_page=50"
             }
             
             var url = URL(string: UrlRouter.baseURLString)!
