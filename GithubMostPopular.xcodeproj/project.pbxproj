@@ -133,6 +133,7 @@
 		5F5697DB227BB4F000E3363E /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				5FD9FCDB227B48B5003DF40F /* Assets.xcassets */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -228,7 +229,6 @@
 			children = (
 				5F60BE8A227CB92D0006DACD /* extension */,
 				5FD9FCD4227B48B4003DF40F /* AppDelegate.swift */,
-				5FD9FCDB227B48B5003DF40F /* Assets.xcassets */,
 				5FD9FCE0227B48B5003DF40F /* Info.plist */,
 				5F5697DE227BB50900E3363E /* model */,
 				5F5697DB227BB4F000E3363E /* resources */,

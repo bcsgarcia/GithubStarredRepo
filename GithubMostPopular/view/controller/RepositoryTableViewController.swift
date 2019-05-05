@@ -36,10 +36,10 @@ class RepositoryTableViewController: UITableViewController {
             if let error = self.viewModel.error {
                 switch error {
                 case .noResponse, .noData:
-                    self.showAlert("Problem with response, please check your internet connection")
+                    self.showAlert("Problema ao consultar os repositórios, verifique sua conexão com a internet.")
                 case .noInternetConnection:
                     self.initInternetConnectionCheck()
-                    self.showAlert("No network connection available")
+                    self.showAlert("Por favor verifique sua conexão com a internet!")
                 default:
                     print(error)
                 }
