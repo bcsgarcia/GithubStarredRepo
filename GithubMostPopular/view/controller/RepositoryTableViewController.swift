@@ -125,7 +125,19 @@ extension RepositoryTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //performSegue(withIdentifier: identifier, sender: indexPath)
+        
+        let repositoryCellViewModel = repositoriesCellViewModel[indexPath.row]
+        
+        guard let url = URL(string: repositoryCellViewModel.url) else {
+            return
+        }
+        
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(url)
+        }
+        
     }
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
