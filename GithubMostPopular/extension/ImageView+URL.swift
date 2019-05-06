@@ -12,6 +12,7 @@ import Alamofire
 import AlamofireImage
 
 
+
 let imageCache = NSCache<AnyObject, AnyObject>()
 
 extension UIImageView {

@@ -20,13 +20,17 @@
 		5F60BE94227D12270006DACD /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60BE93227D12270006DACD /* RepositoryCell.swift */; };
 		5F60BE96227D19F60006DACD /* RepositoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60BE95227D19F60006DACD /* RepositoryTableViewController.swift */; };
 		5F60BE98227D1F670006DACD /* Double+FriendlyK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60BE97227D1F670006DACD /* Double+FriendlyK.swift */; };
+		5FA2582022805CE400E483A1 /* GitResponseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2581F22805CE400E483A1 /* GitResponseMock.swift */; };
+		5FA2582322805DC200E483A1 /* GithubServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2582222805DC200E483A1 /* GithubServiceMock.swift */; };
 		5FD9FCD5227B48B4003DF40F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9FCD4227B48B4003DF40F /* AppDelegate.swift */; };
 		5FD9FCDA227B48B4003DF40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD9FCD8227B48B4003DF40F /* Main.storyboard */; };
 		5FD9FCDC227B48B5003DF40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD9FCDB227B48B5003DF40F /* Assets.xcassets */; };
 		5FD9FCDF227B48B5003DF40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD9FCDD227B48B5003DF40F /* LaunchScreen.storyboard */; };
 		5FD9FCEA227B48B5003DF40F /* GithubMostPopularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9FCE9227B48B5003DF40F /* GithubMostPopularTests.swift */; };
 		5FD9FCF5227B48B5003DF40F /* GithubMostPopularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9FCF4227B48B5003DF40F /* GithubMostPopularUITests.swift */; };
+		648C09ECED5B9DC3CC37FE90 /* Pods_GithubMostPopular_GithubMostPopularUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C35883D935B4CB737D6012 /* Pods_GithubMostPopular_GithubMostPopularUITests.framework */; };
 		6A5068545AD43443F0840680 /* Pods_GithubMostPopularUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C029BB91FC0B77949EA722 /* Pods_GithubMostPopularUITests.framework */; };
+		B1EA08EAA7AA762D3717001C /* Pods_GithubMostPopular_GithubMostPopularTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E891E79C7266DDF154D4A35 /* Pods_GithubMostPopular_GithubMostPopularTests.framework */; };
 		FB84FEE9BF0A07E098DF03BE /* Pods_GithubMostPopularTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFDBD33482104C17CAAB32F /* Pods_GithubMostPopularTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +54,9 @@
 /* Begin PBXFileReference section */
 		00132FD0EB158DCFD431EF54 /* Pods-GithubMostPopularUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopularUITests.debug.xcconfig"; path = "Target Support Files/Pods-GithubMostPopularUITests/Pods-GithubMostPopularUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		14DD3B6D552D570D46462AC5 /* Pods_GithubMostPopular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubMostPopular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30756C20AA316BD1DE93F298 /* Pods-GithubMostPopular-GithubMostPopularUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopular-GithubMostPopularUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubMostPopular-GithubMostPopularUITests/Pods-GithubMostPopular-GithubMostPopularUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3C5983CFFE6E18DB0E671EBE /* Pods-GithubMostPopular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopular.debug.xcconfig"; path = "Target Support Files/Pods-GithubMostPopular/Pods-GithubMostPopular.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF3DE91996EE881506F497D /* Pods-GithubMostPopular-GithubMostPopularTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopular-GithubMostPopularTests.release.xcconfig"; path = "Target Support Files/Pods-GithubMostPopular-GithubMostPopularTests/Pods-GithubMostPopular-GithubMostPopularTests.release.xcconfig"; sourceTree = "<group>"; };
 		5CE9D50487A0685C74503522 /* Pods-GithubMostPopularTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopularTests.release.xcconfig"; path = "Target Support Files/Pods-GithubMostPopularTests/Pods-GithubMostPopularTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F5697E2227BB69600E3363E /* GithubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
 		5F5697E4227BBA3600E3363E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -64,6 +70,8 @@
 		5F60BE93227D12270006DACD /* RepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
 		5F60BE95227D19F60006DACD /* RepositoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewController.swift; sourceTree = "<group>"; };
 		5F60BE97227D1F670006DACD /* Double+FriendlyK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+FriendlyK.swift"; sourceTree = "<group>"; };
+		5FA2581F22805CE400E483A1 /* GitResponseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitResponseMock.swift; sourceTree = "<group>"; };
+		5FA2582222805DC200E483A1 /* GithubServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubServiceMock.swift; sourceTree = "<group>"; };
 		5FD9FCD1227B48B4003DF40F /* GithubMostPopular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubMostPopular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD9FCD4227B48B4003DF40F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FD9FCD9227B48B4003DF40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,10 +85,14 @@
 		5FD9FCF4227B48B5003DF40F /* GithubMostPopularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubMostPopularUITests.swift; sourceTree = "<group>"; };
 		5FD9FCF6227B48B5003DF40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FFD3041F994C9A5C1C35678 /* Pods-GithubMostPopular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopular.release.xcconfig"; path = "Target Support Files/Pods-GithubMostPopular/Pods-GithubMostPopular.release.xcconfig"; sourceTree = "<group>"; };
+		6B72CD12F4BF542E38896461 /* Pods-GithubMostPopular-GithubMostPopularTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopular-GithubMostPopularTests.debug.xcconfig"; path = "Target Support Files/Pods-GithubMostPopular-GithubMostPopularTests/Pods-GithubMostPopular-GithubMostPopularTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7963CBED6510D9E1FD8CD75E /* Pods-GithubMostPopularUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopularUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubMostPopularUITests/Pods-GithubMostPopularUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9BFDBD33482104C17CAAB32F /* Pods_GithubMostPopularTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubMostPopularTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E891E79C7266DDF154D4A35 /* Pods_GithubMostPopular_GithubMostPopularTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubMostPopular_GithubMostPopularTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C35883D935B4CB737D6012 /* Pods_GithubMostPopular_GithubMostPopularUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubMostPopular_GithubMostPopularUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE86DBFE7AE98F6FBD3830AD /* Pods-GithubMostPopularTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopularTests.debug.xcconfig"; path = "Target Support Files/Pods-GithubMostPopularTests/Pods-GithubMostPopularTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3C029BB91FC0B77949EA722 /* Pods_GithubMostPopularUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubMostPopularUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F002134BCB5A80FDDCBA708F /* Pods-GithubMostPopular-GithubMostPopularUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubMostPopular-GithubMostPopularUITests.debug.xcconfig"; path = "Target Support Files/Pods-GithubMostPopular-GithubMostPopularUITests/Pods-GithubMostPopular-GithubMostPopularUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB84FEE9BF0A07E098DF03BE /* Pods_GithubMostPopularTests.framework in Frameworks */,
+				B1EA08EAA7AA762D3717001C /* Pods_GithubMostPopular_GithubMostPopularTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A5068545AD43443F0840680 /* Pods_GithubMostPopularUITests.framework in Frameworks */,
+				648C09ECED5B9DC3CC37FE90 /* Pods_GithubMostPopular_GithubMostPopularUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +131,8 @@
 				14DD3B6D552D570D46462AC5 /* Pods_GithubMostPopular.framework */,
 				9BFDBD33482104C17CAAB32F /* Pods_GithubMostPopularTests.framework */,
 				D3C029BB91FC0B77949EA722 /* Pods_GithubMostPopularUITests.framework */,
+				9E891E79C7266DDF154D4A35 /* Pods_GithubMostPopular_GithubMostPopularTests.framework */,
+				A2C35883D935B4CB737D6012 /* Pods_GithubMostPopular_GithubMostPopularUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +218,22 @@
 			path = extension;
 			sourceTree = "<group>";
 		};
+		5FA2581E22805C0700E483A1 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				5FA2581F22805CE400E483A1 /* GitResponseMock.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		5FA2582122805D5B00E483A1 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				5FA2582222805DC200E483A1 /* GithubServiceMock.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		5FD9FCC8227B48B4003DF40F = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +274,8 @@
 		5FD9FCE8227B48B5003DF40F /* GithubMostPopularTests */ = {
 			isa = PBXGroup;
 			children = (
+				5FA2582122805D5B00E483A1 /* service */,
+				5FA2581E22805C0700E483A1 /* helper */,
 				5FD9FCE9227B48B5003DF40F /* GithubMostPopularTests.swift */,
 				5FD9FCEB227B48B5003DF40F /* Info.plist */,
 			);
@@ -266,6 +300,10 @@
 				5CE9D50487A0685C74503522 /* Pods-GithubMostPopularTests.release.xcconfig */,
 				00132FD0EB158DCFD431EF54 /* Pods-GithubMostPopularUITests.debug.xcconfig */,
 				7963CBED6510D9E1FD8CD75E /* Pods-GithubMostPopularUITests.release.xcconfig */,
+				6B72CD12F4BF542E38896461 /* Pods-GithubMostPopular-GithubMostPopularTests.debug.xcconfig */,
+				4DF3DE91996EE881506F497D /* Pods-GithubMostPopular-GithubMostPopularTests.release.xcconfig */,
+				F002134BCB5A80FDDCBA708F /* Pods-GithubMostPopular-GithubMostPopularUITests.debug.xcconfig */,
+				30756C20AA316BD1DE93F298 /* Pods-GithubMostPopular-GithubMostPopularUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -300,7 +338,6 @@
 				5FD9FCE1227B48B5003DF40F /* Sources */,
 				5FD9FCE2227B48B5003DF40F /* Frameworks */,
 				5FD9FCE3227B48B5003DF40F /* Resources */,
-				A4C64D221156AC6A435FF8AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -492,28 +529,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubMostPopular/Pods-GithubMostPopular-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4C64D221156AC6A435FF8AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GithubMostPopularTests/Pods-GithubMostPopularTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubMostPopularTests/Pods-GithubMostPopularTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -541,7 +556,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA2582322805DC200E483A1 /* GithubServiceMock.swift in Sources */,
 				5FD9FCEA227B48B5003DF40F /* GithubMostPopularTests.swift in Sources */,
+				5FA2582022805CE400E483A1 /* GitResponseMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
