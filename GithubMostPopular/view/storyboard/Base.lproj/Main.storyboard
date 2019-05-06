@@ -138,7 +138,7 @@
     </scenes>
     <resources>
         <image name="fork" width="128" height="128"/>
-        <image name="github" width="256" height="256"/>
+        <image name="github" width="1536" height="1536"/>
         <image name="star" width="128" height="128"/>
     </resources>
 </document>

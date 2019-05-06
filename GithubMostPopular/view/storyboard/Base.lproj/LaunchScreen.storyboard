@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="github" width="256" height="256"/>
+        <image name="github" width="1536" height="1536"/>
     </resources>
 </document>
